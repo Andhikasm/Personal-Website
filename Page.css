@@ -2,52 +2,13 @@ body{
   background-color: #222222;
 }
 
-section#home {
-  height: 750px;
-  width: 100%;
-  background: url('http://res.cloudinary.com/andhikasm/image/upload/v1471960674/eclipse-1495650_1280_gujesz.jpg') center top /cover lightblue;
-  padding: 10px;
-  text-align: center;
+.navbar-nav li{
+    
+    float: none;
+    display: inline-block;
 }
 
-section#home h1 { 
-  font-size: 4em;
-  font-weight: 700;
-  margin-top: 60px;
-  color: 	#B0B0B0;
-}
-
-.navbar-brand{
-  font-size: 25px; 
-  color: #4d4dff;
-}
-
-.navbar-fixed-top{
-  background-color: #000000;
-}
-
-#about p{
-  font-family: Calibri;
-  font-size: 20px;
-}
-
-.box{
-  width: 200px;
-  height: 200px; 
-  margin: 10px;
-  padding: 10px;
-  background-color: #cccccc;
-  color: white;
-}
-
-#share-buttons{
-  text-align: center;
-}
-
-#share-buttons img{
-  width: 35px;
-  padding: 5px;
-  border: 0;
-  box-shadow: 0;
-  display: inline;
+.navbar-nav{
+    width: 100%;
+    text-align: center;
 }
