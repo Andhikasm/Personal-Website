@@ -18,7 +18,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-main-nav">
-                <span class="sr-only">Toggle navigation</span>
+                
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -28,13 +28,16 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="my-main-nav">
               <ul class="nav navbar-nav">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> About</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-education"></span> Education</a></li>
+                  
+                <li><a href="#about"><span class="glyphicon glyphicon-user"></span><span class="hidden-xs"> About</span></a></li>
+                  <li><a href="#education"><span class="glyphicon glyphicon-education"></span><span class="hidden-xs"> Education</span></a></li>
                 <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-th-large"></span> Projects</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                <li><a href="#projects"><span class="glyphicon glyphicon-th-large"></span><span class="hidden-xs"> Projects</span></a></li>
+                <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span><span class="hidden-xs"> Contact</span></a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
+              
+              
               
           </div><!-- /.container-fluid -->
         </nav>
@@ -43,77 +46,256 @@
           <div class="container-fluid text-center">
             <img src="Me2.jpg" class="img-circle" alt="Me">
             <h1>Andhika Srimadeva</h1>      
-            <p>Student - Software Developer</p>
+            <p>Student - Software Developer - Entrepreneur</p>
           </div>
         </div>
-        <div class="grey-bg">
-            <div id="about" class="container">
-              <div class="row">
-                  <h2>Skills</h2><br>
-                  <h4>Java</h4><br>
-                  <h4>C++</h4><br>
-                  <h4>Front-End Web Development</h4><br>
-                    <h4>Scala</h4><br>
-                    <h4>SQL</h4><br>
-
-              </div>
+        
+        <div id="about" class="container-fluid grey-bg">
+            <div class="row text-center">
+                <h2>Skills</h2><br>
             </div>
-        </div>
-            <div id="education" class="container">
-              <div class="row">
-                  <h2>Education</h2><br>
-              </div>
-            </div>
-        <div class="grey-bg">
-            <div id="projects" class="container text-center">
-              <div class="row">
-                <div class="col-sm-3">
-                  <a data-toggle="modal" data-target="#myModal" style="cursor: pointer;">
-                      <img src="KCL-Logo.jpg" class="img-responsive" style="width:200px;height:200px" alt="Image">
-                    </a>
-                    <div id="myModal" class="modal fade" role="dialog">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Projects from King's College London</h4>
-                              </div>
-                              <div class="modal-body">
-                                <p>Shark Tracker</p>
-                                  <p>Macro-Economics Application</p>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                              </div>
-                            </div>
+            <div class="row">
+                
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <div class="media">
+                        <div class="media-left">
+                          <img src="java-icon.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Java</h4>
+                          <p>Java is my primary language. I have been building bigger applications with it from my programming course in university as well as during my spare time. I am currently learning Android to get the most out of the skill.</p>
                         </div>
                     </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                          <img src="cplusplus-icon.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">C++</h4>
+                          <p>
+                              C++ was introduced to me during the first week of Practical Experience of Programming(PEP) module in my university. After 7+ weeks of demanding courseworks, I have really improved my knowledge in the language. The overall mark of 90+% in the module will justify this.
+                          </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                          <img src="scala-icon.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Scala</h4>
+                          <p>
+                              Scala was also introduced during the PEP module. The language was used mainly for its functional programming style.
+                          </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                          <img src="sql-icon.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">SQL</h4>
+                          <p>
+                              I have been using databases during my A Level Applied ICT class. And I learned SQL (MySQL) during my Database Systems module in my first year. My overall mark for the module was 70+.
+                          </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                          <img src="web-icon.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Web Development (Front-End)</h4>
+                          <p>
+                              I have been using HTML and CSS ocassionaly over the past 5 years. However it wasn't until the summer break after my first year in university that I really took it more seriously. I have been following the FreeCodeCamp syllabus, learning JavaScript,jQuery,Bootstrap as well along the way.
+                         </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                          <img src="android-icon.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Android</h4>
+                          <p>
+                              The moment I know Java is used to make Android apps, I was eager to learn it. I first got into Android during the KCL Tech Society's Android lectures. I have then been learning it through online courses such as Udemy, and youtube as well. I mainly spend my time learning it when I have some free time during the term.
+                          </p>
+                        </div>
+                    </div>
+                    <hr>
                 </div>
-                <div class="col-sm-3">
-                  <img src="FCC-Logo.png" class="img-responsive img-center" style="width:200px;height:200px" alt="Image">
-                  <p>Current Project</p>
-                </div>
-                <div class="col-sm-3">
-                  <img src="Android-Logo.png" class="img-responsive" style="width:200px;height:200px" alt="Image">
-                  <p>Current Project</p>
-                </div>
-                  <div class="col-sm-3">
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:200px;height:200px" alt="Image">
-                </div>
-              </div>
+                <div class="col-sm-1"></div>
             </div>
         </div>
-            <div id="contacts" class="container">
-              <div class="row">
-                <h2>Contacts</h2><br>
-              </div>
+        
+        <div id="education" class="container-fluid text-center">
+          <div class="row">
+              <h2>Education</h2><br>
+          </div>
+            <div class="row text-left">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <div class="media">
+                        <div class="media-left">
+                        <a href="http://www.kcl.ac.uk">
+                          <img src="kcl-icon.jpg" class="media-object" style="width:60px">
+                        </a>    
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">King's College London (2015 - 2018) - BSc. Computer Science with Management</h4>
+                          <p>
+                              <b>Key modules</b>
+                          </p>
+                          <p>
+                            Programming Applications<br>
+                            Software Engineering Group Projects<br>
+                            Database Applications<br>
+                          </p>
+                          <p>
+                              <b>Notable positions held</b>
+                          </p>
+                            <p>
+                                Undergraduate Student-Staff Liaison Committee
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="http://www.morningglory-school.com">
+                                <img src="mgis-icon.jpg" class="media-object" style="width:60px">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Morning Glory International School (2011 - 2015)</h4>
+                          <p>
+                              <b>Qualifications</b>
+                          </p>
+                          <p>
+                              3 A Levels - Mathematics, Applied ICT, Business Studies <br>
+                              1 AS Levels - Physics<br>
+                              8 IGCSEs - Mathematics, ICT, Business Studies, Physics, Biology, French (Second) Language, Spanish (Second) Language, English (First) Language<br>
+                              IELTS
+                          </p>
+                          <p>
+                              <b>Awards</b>
+                          </p>
+                          <p>
+                              High Honor Roll in Grade 10<br>
+                              Overall Best Student in Grade 11<br>
+                              Overall Best Student in Grade 12<br>
+                          </p>
+                          <p>
+                              <b>Notable Positions held</b>
+                          </p>
+                          <p>
+                              Assistant Student Body President<br>
+                              People To People 2013 Leadership Ambassador<br>
+                          </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-sm-1"></div>
             </div>
+            
+        </div>
+        <div id="projects" class="container-fluid text-center grey-bg">
+            <div class="row">
+              <h2>Projects</h2><br>
+            </div>
+ 
+              <div class="row text-left">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <div class="media">
+                        <div class="media-left">
+                        <a href="http://www.kcl.ac.uk">
+                          <img src="kcl-icon.jpg" class="media-object" style="width:60px">
+                        </a>    
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Projects from my course</h4>
+                          
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="android-icon.png" class="media-object" style="width:60px">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Android Projects</h4>
+                          <p>
+                              <b>Qualifications</b>
+                          </p>
+                          <p>
+                          </p>
+                          
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="FCC-Logo.png" class="media-object" style="width:60px">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">FreeCodeCamp Projects</h4>
+                          <p>
+                              FreeCodeCamp has allowed me to learn web development and build projects as well. It is what I usually do when I have free time, and I intend to complete the Front-End Development syllabus in 2017.
+                          </p>
+                          <p>
+                          </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="http://www.brainswap.co.uk">
+                                <img src="brainswap-icon.png" class="media-object" style="width:60px">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Personal Project - BrainSwap App</h4>
+                          <p>
+                              BrainSwap is a new iOS/Android social media app designed to unite students by providing a single platform for questions and answers in their respective field. This project has allowed me to experience entrepreneurship and apply what I learnt from my management courses.
+                          </p>
+                          <p>
+                          </p>
+                          
+                        </div>
+                    </div>
+                    <hr>
+                    
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+        
+        
+        <div id="contact" class="container-fluid text-center">
+          <div class="row">
+            <h2>Contacts</h2><br>
+          </div>
+        </div>
+        
         <footer class="container-fluid text-center">
-            <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
+            <a href="https://www.facebook.com/Andhikasm"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.freecodecamp/andhikasm"><i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.github.com/Andhikasm"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            <a href="https://uk.linkedin.com/in/asrimadeva2"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+            <a href="https://codepen.io/Andhikasm/"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a>
+            <br>
+            <p class="small ">Design by Andhika Srimadeva</p>
         </footer>
         
     </body>

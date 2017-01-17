@@ -5,6 +5,10 @@ body{
 .grey-bg{
     background-color: #f2f2f2;
 }
+.centerBlock {
+  display: table;
+  margin: auto;
+}
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -16,7 +20,10 @@ body{
 }
 footer {
     margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+#contacts{
+    background-color: white;
 }
 .navbar-nav li{
     float: none;
@@ -30,4 +37,11 @@ footer {
 
 footer i{
     margin-right: 20px;
+    margin-bottom: 20px;
+}
+#text-list{
+    padding-left: 10%;
+}
+#projects{
+    padding-bottom: 5%;
 }
