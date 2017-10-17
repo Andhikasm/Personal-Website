@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import {MatExpansionModule} from '@angular/material';
+import {MatCardModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
@@ -27,7 +28,8 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     MatExpansionModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   exports: [
     MatExpansionModule
