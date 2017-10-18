@@ -14,6 +14,11 @@ import { EducationComponent } from './education/education.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { NgBoxModule } from 'ngbox/ngbox.module';
+import { NgBoxService } from 'ngbox/ngbox.service';
+import {MatTooltipModule} from '@angular/material';
+import { CommonModule } from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,12 +34,14 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     MatExpansionModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatTooltipModule,
+    NgBoxModule, BrowserModule, CommonModule
   ],
   exports: [
     MatExpansionModule
   ],
-  providers: [],
+  providers: [NgBoxService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
